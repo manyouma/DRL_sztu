@@ -17,6 +17,6 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 ### Course Material 
 | Week | Lecture Topic | Lab / Programming Focus |
 |------|---------------|------------------------|
-| 1 | Basic Concepts of RL |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/blob/main/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/Lab01_frozenLake_intro_ans.ipynb)|
-| 2 | State Values and Bellman Equation | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/Lab02_frozenLake_MDP.ipynb)|
+| 1 | Basic Concepts of RL |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/labs/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/labs/Lab01_frozenLake_intro_ans.ipynb)|
+| 2 | State Values and Bellman Equation | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/labs/Lab02_frozenLake_MDP.ipynb)|
 | 3 | Bellman Optimality Equation | Value iteration for FrozenLake |

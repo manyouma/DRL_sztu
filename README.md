@@ -4,7 +4,7 @@ Welcome to **Introduction to Deep Reinforcement Learning**!
 
 ---
 
-## 👩‍🏫 Instructor
+## Instructor
 
 **Dr. Manyou Ma**  
 Assistant Professor, School of Big Data and Internet, Shenzhen Technology University  
@@ -14,7 +14,7 @@ Office: Room 1717, C1 (BDI Building)
 
 ---
 
-## 📅 Lectures
+## Lectures
 
 | Type      | Day & Time            | Location |
 |----------|---------------------|----------|
@@ -30,8 +30,3 @@ Office: Room 1717, C1 (BDI Building)
 | **Credits** | 4 |
 | **Prerequisites** | Python programming, basic probability & linear algebra |
 | **Grading** | Attendance: 5%<br> Lab Reports: 15%<br>Project Presentation: 20%<br>Final Project: 60% |
-
-
-- Start assignments early; debugging RL code takes time.
-- Use office hours for guidance on theory, math, and coding.
-- Discuss ideas with peers, but submit your own work.

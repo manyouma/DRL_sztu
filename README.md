@@ -29,9 +29,9 @@ Office Hours: Monday 2:00 pm - 3:00 pm  (email to schedule)
 | **Prerequisites** | Python programming, basic probability & linear algebra |
 | **Grading** | Attendance: 5%<br> Lab Reports: 15%<br>Project Presentation: 20%<br>Final Project: 60% |
 
-
+### Course Information
 | Week | Lecture Topic | Lab / Programming Focus |
 |------|---------------|------------------------|
-| 1 | **Basic Concepts of RL** |  Introduction to OpenAI Gym and NumPy|
-| 2 | **State Values and Bellman Equation** | State transition probability of FrozenLake |
+| 1 | **Basic Concepts of RL** |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/blob/main/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/Lab01_frozenLake_intro_ans.ipynb)|
+| 2 | **State Values and Bellman Equation** | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/Lab02_frozenLake_MDP.ipynb)|
 | 3 | **Bellman Optimality Equation** | Value iteration for FrozenLake |

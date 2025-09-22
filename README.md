@@ -1,6 +1,6 @@
 #  Introduction to Reinforcement Learning
 
-Welcome to **IB00398 Introduction to Reinforcement Learning (DRL)** at Shenzhen Technology University!  
+Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 
 ### Instructor

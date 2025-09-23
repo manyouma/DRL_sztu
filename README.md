@@ -2,6 +2,15 @@
 
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
+### Course News & Announcements
+- **[2025-09-23]** Lecture on September 24 is cancelled due to typhoon landing. Stay safe everyone!
+
+<details>
+<summary>Archived News</summary>
+- **[2025-09-18]** Lab 1 solution posted.
+- **[2025-09-17]** Course GitHub repo opened.
+
+</details>
 
 ### Course Information 
 
@@ -17,6 +26,6 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 ### Course Material 
 | Week | Lecture Topic | Lab / Programming Focus |
 |------|---------------|------------------------|
-| 1 | Basic Concepts of RL |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/labs/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/labs/Lab01_frozenLake_intro_ans.ipynb)|
-| 2 | State Values and Bellman Equation | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/labs/Lab02_frozenLake_MDP.ipynb)|
+| 1 | Basic Concepts of RL |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab01_frozenLake_intro_ans.ipynb)|
+| 2 | State Values and Bellman Equation | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab02_frozenLake_MDP.ipynb)|
 | 3 | Bellman Optimality Equation | Value iteration for FrozenLake |

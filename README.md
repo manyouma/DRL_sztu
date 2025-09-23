@@ -3,7 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-09-23]** Lecture on September 24 is cancelled due to typhoon landing. Stay safe everyone!
+- **[2025-09-23]** Lecture on September 24 is cancelled due to the typhoon landing. Stay safe everyone!
 
 <details>
 <summary>Archived News</summary>

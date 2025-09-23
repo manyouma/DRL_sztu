@@ -7,7 +7,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 
 <details>
 <summary>Archived News</summary>
-- **[2025-09-18]** Lab 1 solution posted.
+- **[2025-09-18]** Lab 1 solution posted. <br>
 - **[2025-09-17]** Course GitHub repo opened.
 
 </details>

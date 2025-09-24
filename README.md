@@ -33,9 +33,9 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 4 (Sep 30)| Value Iteration and Policy Iteration | Policy Learning in PyTorch|
 
 
-### Course Material Project Information
-| Assignment  | Instruction  |   Deadline  |   Weight    |
-|------|---------------|------------------------|-----|
+### Project Information
+| Project Assignment  | Instruction  |   Deadline  |   Weight    |
+|---------|---------------|------------------------|-----|
 | 1  | Real-life Problem as an MDP (instructions to come)| Oct. 22 | 15 |
 | 2  | TBD  |||
 | 3  | TBD  |||

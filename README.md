@@ -36,7 +36,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 ### Project Information
 | Project Assignment | Instruction | Deadline | Weight |
 |--------------------|-------------|----------|--------|
-| **1. Project 1 – Real-life Problem as an MDP** | *(Total = 15%)* |  | **15** |
+| **1. 1 – Real-life Problem as an MDP** | *(Total = 15%)* |  | **15** |
 | &nbsp;&nbsp;1a| Questionnaire [pdf](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/instr_project01a.pdf) [latex](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/version01.tex) | Oct. 9  | 2 |
 | &nbsp;&nbsp;1b | Revised Questionnaire| Oct. 15 | 1 |
 | &nbsp;&nbsp;1c | Preliminary Simulator| Oct. 22 | 2 |

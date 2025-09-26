@@ -1,0 +1,171 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\tcbset{colback=white,colframe=black,boxrule=0.5pt,arc=2pt}
+
+% Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\setlist[itemize]{left=1.5em}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Project 1 – Part a}} \\[6pt]
+    {\large IB00398: Introduction to Deep Reinforcement Learning} \\[3pt]
+    \textbf{Instructor: Manyou Ma} \quad \textbf{Due Date: October 11}\\ [3pt]
+\end{center}
+
+\vspace{1em}
+
+\noindent
+
+\begin{tcolorbox}[colback=white,colframe=black,boxrule=0.6pt,arc=2pt]
+\textbf{Name:} \hspace{8cm} \\[6pt]
+\textbf{Student Number:} \hspace{6cm} \\[6pt]
+\textbf{Email:} \hspace{8.2cm} \\[6pt]
+\textbf{(Home) University:} \hspace{6.5cm} \\[6pt]
+\textbf{Year of Entrance:} \hspace{6.5cm} \\[6pt]
+\textbf{Specialization / Major:} \hspace{5.6cm} \\[6pt]
+\textbf{Project Title:} \hspace{7.2cm}
+\end{tcolorbox}
+
+\vspace{1em}
+\noindent
+Please complete this questionnaire to ensure your project topic is well-defined, feasible, unique, and aligned with your goals. You may submit a \textbf{TYPED} PDF or directly modify the \LaTeX source code.  
+
+
+
+
+
+\section*{Topic Quality}
+
+\begin{enumerate}
+    \item \textbf{Problem Statement} \\[3pt]
+    What is your project about? (150 Words) 
+    \begin{tcolorbox}[height=8cm]
+    \end{tcolorbox}
+\clearpage
+    \item \textbf{MDP Suitability} \\[3pt]
+    Can this problem be modeled with \textbf{states, actions, and rewards}? Briefly describe:  
+    \begin{tcolorbox}[height=7cm]
+
+    \vspace{1em}
+    
+    States: \\
+    
+    \vspace{1em}
+    
+    Actions: \\
+
+    \vspace{1em}
+    
+    Rewards:
+    \end{tcolorbox}
+
+    \item \textbf{Motivation} \\[3pt]
+    Why is this problem interesting and meaningful? (100 Words) 
+    \begin{tcolorbox}[height=7cm]
+    \end{tcolorbox}
+
+    \item \textbf{Personal Interest} \\[3pt]
+    Am I personally interested to work on this problem? Why or why not?  
+    \begin{tcolorbox}[height=4cm]
+    \end{tcolorbox}
+    
+\clearpage
+    \item \textbf{Career and Academic Alignment} \\[3pt]
+    How does this project connect to my career or academic goals?  
+    \begin{tcolorbox}[height=5cm]
+\vspace{1em}
+    
+    Job readiness / skills employers value: \\
+
+    \vspace{2em}
+    
+    Academic paper or portfolio potential:
+    
+    \vspace{1em}
+    \end{tcolorbox}
+
+    \item \textbf{Degree Program Relevance} \\[3pt]
+    Can I use knowledge from my other classes (e.g., mechatronics, cybersecurity, communications, control) in this project? Which course and how?
+    \begin{tcolorbox}[height=2.5cm]
+    \end{tcolorbox}
+
+    \item \textbf{Feasibility} \\[3pt]
+    Do I have enough data and domain knowledge to build a simple simulator? What data or approximations will I use?  
+    \begin{tcolorbox}[height=4cm]
+    \end{tcolorbox}
+
+    \item \textbf{Uniqueness} \\[3pt]
+    Is your topic original, or does it go beyond copying an existing GitHub repo/tutorial? What makes it unique?  
+    \begin{tcolorbox}[height=4cm]
+    \end{tcolorbox}
+\end{enumerate}
+
+\section*{MDP Components}
+
+\noindent
+Your project must include at least \textbf{10 states} and \textbf{3 distinct actions}.  
+Actions should represent \textbf{different categories of decisions}, not just variations of the same one.  
+
+\begin{itemize}
+    \item Not acceptable: \{move left, move right, move up, move down\}  
+    \item Better example: \{move, pick up object, drop object, wait, signal another agent\}  
+\end{itemize}
+
+States and actions may be \textbf{discrete} (finite categories) or \textbf{continuous} (real values).  
+
+\begin{itemize}
+    \item Discrete example (traffic light): States = \{low, medium, high traffic\}, Actions = \{switch to green, switch to red\}.  
+    \item Continuous example (drone): States = $(x,y,z,v_x,v_y,v_z)$, Actions = thrust vector $(f_x,f_y,f_z)$, yaw angle $\theta$.  
+\end{itemize}
+
+\begin{enumerate}[resume]
+    \item \textbf{States (at least 10)} \\[3pt]
+    List possible states for your problem. Mark if they are discrete or continuous.  
+    \begin{tcolorbox}[height=7cm]
+    \end{tcolorbox}
+
+    \item \textbf{Actions (at least 3 distinct)} \\[3pt]
+    List possible actions for your agent. Mark if they are discrete or continuous.  
+    \begin{tcolorbox}[height=5cm]
+    \end{tcolorbox}
+    
+\clearpage
+    \item \textbf{Rewards} \\[3pt]
+    What is the reward signal? How is success measured?  
+    \begin{tcolorbox}[height=5cm]
+    \end{tcolorbox}
+
+    \item \textbf{Transitions} \\[3pt]
+    Are the transitions between states clear and plausible? Briefly explain how the system evolves.  
+    \begin{tcolorbox}[height=5cm]
+    \end{tcolorbox}
+\end{enumerate}
+
+\section*{Literature Survey}
+
+\begin{enumerate}[resume]
+
+    \item \textbf{References} \\[3pt]
+    List at least 3--6 related papers or articles you have found.  
+    \begin{tcolorbox}[height=5cm]
+    \end{tcolorbox}
+
+\end{enumerate}
+
+\vfill
+\noindent
+\textit{Note: This questionnaire is for your own benefit. Be honest and specific. 
+If you are unsure about any part, or if you need help finding a suitable topic, 
+please check with me before the due date of this assignment.  -- Version 0, Sept. 26, 2025}
+\end{document}

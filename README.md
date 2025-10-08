@@ -30,7 +30,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 |--------|------------------|------------------------|
 | 1 (Sep 08)| Basic Concepts of RL |  Introduction to OpenAI Gym and NumPy [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab01_frozenLake_intro.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab01_frozenLake_intro_ans.ipynb)|
 | 2 (Sep 15)| State Values and Bellman Equation | State transition probability of FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab02_frozenLake_MDP.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab02_frozenLake_MDP_sol.ipynb)|
-| 3 (Sep 22)| Bellman Optimality Equation | Optimal Policy for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal.ipynb)[sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal_sol.ipynb)|
+| 3 (Sep 22)| Bellman Optimality Equation | Optimal Policy for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal_sol.ipynb)|
 | 4 (Sep 29)| Value Iteration and Policy Iteration | Value and Policy Iterations for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab04_frozenLake_VI_PI.ipynb)|
 | 5 (Oct 06)| Monte Carlo Methods | Deep Learning with PyTorch|
 

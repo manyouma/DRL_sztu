@@ -3,6 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
+- **[2025-10-11]** Lecture today is moved to C-1-116 (BDI Building). <br>
 - **[2025-10-10]** There will be a make-up lecture on Oct. 11th (Saturday). <br>
 
 <details>
@@ -20,7 +21,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | **Item**          | **Details** |
 |-------------------|-------------|
 | **Instructor**    | Dr. Manyou Ma <br> Assistant Professor, School of Big Data and Internet, Shenzhen Technology University <br> Email: [mamanyou@sztu.edu.cn](mailto:mamanyou@sztu.edu.cn) <br> Office: Room 1717, C1 (BDI Building) <br> Office Hours: Monday 2:00 pm - 3:00 pm (email to schedule) |
-| **Lectures**      | Wednesday, Period 6-7 (14:00–15:30) — C5 Room 214 <br> Thursday, Period 1-2 (08:30–10:00) — C5 Room 561 |
+| **Lectures**      | Wednesday, Period 6-7 (14:00–15:30) — C1 Room 116 (BDI Building)  <br> Thursday, Period 1-2 (08:30–10:00) — C1 Room 116 (BDI Building) |
 | **Credits**       | 4 |
 | **Prerequisites** | Python programming, basic probability & linear algebra |
 | **Grading**       | Attendance: 5% ; Lab Reports: 15% ; Project Presentation: 20% ; Final Project: 60% |

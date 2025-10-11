@@ -35,7 +35,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 3 (Sep 22)| Bellman Optimality Equation [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L3-Bellman%20optimality%20equation.pdf) | Optimal Policy for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal_sol.ipynb)|
 | 4 (Sep 29)| Value Iteration and Policy Iteration [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L4-Value%20iteration%20and%20policy%20iteration.pdf) | Value and Policy Iterations for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab04_frozenLake_VI_PI.ipynb)|
 | 5 (Oct 06)| Monte Carlo Methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L5-Monte%20Carlo%20methods.pdf) | Deep Learning with PyTorch|
-| 5 (Oct 13)| Stochastic Approximations | Project Workshop 1 |
+| 6 (Oct 13)| Stochastic Approximations | Project Workshop 1 |
 
 
 

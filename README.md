@@ -3,11 +3,13 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-10-11]** Lecture today is moved to C-1-116 (BDI Building). <br>
-- **[2025-10-10]** There will be a make-up lecture on Oct. 11th (Saturday). <br>
+- **[2025-10-12]** Please complete the [Academic Integrity and Intellectual Property Questionnaire](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) by Oct 15.  <br>
+- **[2025-10-11]** All future lecture are moved to C-1-116 (BDI Building). <br>
+
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
+    - **[2025-10-10]** There will be a make-up lecture on Oct. 11th (Saturday). <br>
     - **[2025-09-26]** Project 1a posted. The due date is Oct. 9th. <br>
     - **[2025-09-24]** Lab 2 solutions posted. <br>
     - **[2025-09-23]** Lecture on September 24 is cancelled due to the typhoon landing. Stay safe everyone! <br>
@@ -44,7 +46,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 |--------------------|-------------|----------|--------|
 | **1. Real-life Problem as an MDP** | |  | **15** |
 | &nbsp;&nbsp;1a: Questionnaire|  [pdf](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/instr_project01a.pdf) [latex](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/version01.tex) | Oct. 9  | 2 |
-| &nbsp;&nbsp;1b: Revised Questionnaire| | Oct. 15 | 1 |
+| &nbsp;&nbsp;1b: Revised Questionnaire]| [IP Statement](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) | Oct. 15 | 1 |
 | &nbsp;&nbsp;1c: Preliminary Simulator| | Oct. 22 | 2 |
 | &nbsp;&nbsp;1d: Report 1 | | Oct. 22  | 10 |
 | 2 TBD |  |  |  |

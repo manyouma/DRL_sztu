@@ -47,7 +47,13 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | **1. Real-life Problem as an MDP** | |  | **15** |
 | &nbsp;&nbsp;1a: Questionnaire|  [pdf](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/instr_project01a.pdf) [latex](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/version01.tex) | Oct. 9  | 2 |
 | &nbsp;&nbsp;1b: Revised Questionnaire | [IP Statement](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) | Oct. 15 | 1 |
-| &nbsp;&nbsp;1c: Report 1 | | Oct. 22  | 12 |
-| 2 TBD |  |  |  |
-| 3 TBD |  |  |  |
-| 4 TBD|  |  |  |
+| &nbsp;&nbsp;1c: Report 1       | | Oct. 22  | 12 |
+| **2. Simplified Simulator**    | |  |  **10** |
+| &nbsp;&nbsp;2a: Sarsa Solution | | Nov. 5   | 7 |
+| &nbsp;&nbsp;2b: DQN Solution   | | Nov. 19  | 3 |
+| **3. Complete Simulalor**      | |  | **10** |
+| &nbsp;&nbsp;3a: DRL Solution 1 | | TBD   | 7 |
+| &nbsp;&nbsp;3b: DRL Solution 2 | | TBD  | 3 |
+| **4. Final Solution & Report** | |  | **25** |
+| &nbsp;&nbsp;4a: Final Solution | | TBD  | 5  |
+| &nbsp;&nbsp;4b: Final Report   | | TBD  | 20 |

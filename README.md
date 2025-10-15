@@ -3,7 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-10-15]** Template for the project report 1 posted. The due date is October 15th. <br>
+- **[2025-10-15]** Template for the project report 1 posted. The due date is October 22nd. <br>
 - **[2025-10-12]** Please complete the [Academic Integrity and Intellectual Property Questionnaire](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) by Oct 15.  <br>
 
 

@@ -45,7 +45,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 09 (Nov 3) | Value-based methods I | Value Estimation with PyTorch |
 | 10 (Nov 10)| Value-based methods II | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods I |  Vanilla Policy Gradient |
-| 12 (Nov 24)| Policy-based methods II | Optimization wiht REINFORCE |
+| 12 (Nov 24)| Policy-based methods II | Optimization with REINFORCE |
 | 13 (Dec 01)| Actor-Critic Methods | A2C and A3C  |
 | 14 (Dec 08)| Trust Region Methods I | TRPO |
 | 15 (Dec 15)| Trust Region Methods II | PPO |

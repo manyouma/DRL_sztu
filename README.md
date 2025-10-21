@@ -39,14 +39,14 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 03 (Sep 22)| Bellman Optimality Equation [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L3-Bellman%20optimality%20equation.pdf) | Optimal Policy for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab03_frozenLake_optimal_sol.ipynb)|
 | 04 (Sep 29)| Value Iteration and Policy Iteration [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L4-Value%20iteration%20and%20policy%20iteration.pdf) | Value Iterations for FrozenLake [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab04_frozenLake_VI_PI.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab04_frozenLake_VI_PI_sol.ipynb)|
 | 05 (Oct 06)| Monte Carlo Methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L5-Monte%20Carlo%20methods.pdf) | Policy Iterations for FrozenLake|
-| 06 (Oct 13)| Stochastic Approximations | Stochastic Approximation [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation_Sol.ipynb) |
-| 07 (Oct 20)| TD methods I  | Sarsa          |
-| 08 (Oct 27)| TD methods II | Q-learning     |
+| 06 (Oct 13)| Stochastic Approximations [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L6-Stochastic%20approximation.pdf) | Stochastic Approximation [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation_Sol.ipynb) |
+| 07 (Oct 20)| TD methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L7-Temporal-Difference%20Learning.pdf)  | Frozen Lake Encore          |
+| 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole |
 | 09 (Nov 3) | Value-based methods I | Value Estimation with PyTorch |
 | 10 (Nov 10)| Value-based methods II | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods I |  Vanilla Policy Gradient |
 | 12 (Nov 24)| Policy-based methods II | Optimization with REINFORCE |
-| 13 (Dec 01)| Actor-Critic Methods | A2C and A3C  |
+| 13 (Dec 01)| Actor-Critic Methods | A2C and DDPG  |
 | 14 (Dec 08)| Trust Region Methods I | TRPO |
 | 15 (Dec 15)| Trust Region Methods II | PPO |
 | 16 (Dec 22)| LLM and RLHF  | LLM fine-tuning |

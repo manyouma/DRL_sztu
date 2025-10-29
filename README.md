@@ -41,7 +41,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 05 (Oct 06)| Monte Carlo Methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L5-Monte%20Carlo%20methods.pdf) | Policy Iterations for FrozenLake|
 | 06 (Oct 13)| Stochastic Approximations [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L6-Stochastic%20approximation.pdf) | Stochastic Approximation [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation_Sol.ipynb) |
 | 07 (Oct 20)| TD methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L7-Temporal-Difference%20Learning.pdf)  | Frozen Lake Encore [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab07_frozenLake_revisited.ipynb)  [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab07_frozenLake_revisited_sol.ipynb)       |
-| 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole |
+| 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole.ipynb) |
 | 09 (Nov 3) | Value-based methods I | Value Estimation with PyTorch |
 | 10 (Nov 10)| Value-based methods II | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods I |  Vanilla Policy Gradient |

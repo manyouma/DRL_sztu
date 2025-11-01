@@ -28,8 +28,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | **Lectures**      | Wednesday, Period 6-7 (14:00–15:30) — C1 Room 116 (BDI Building)  <br> Thursday, Period 1-2 (08:30–10:00) — C1 Room 116 (BDI Building) |
 | **Credits**       | 4 |
 | **Prerequisites** | Python programming, basic probability & linear algebra |
-| **Grading**       | Attendance: 5% ; Lab Reports: 15% ; Project Presentation: 20% ; Final Project: 60% <br> 
-All labs are due one week after they are posted. Late submissions will incur a penalty of 20% per week.|
+| **Grading**       | Attendance: 5% ; Lab Reports: 15% ; Project Presentation: 20% ; Final Project: 60% <br>  All labs are due one week after they are posted. Late submissions will incur a penalty of 20% per week.|
 
 
 ### Course Material 

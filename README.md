@@ -3,13 +3,14 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-10-15]** Template for the project report 1 posted. The due date is October 22nd. <br>
-- **[2025-10-12]** Please complete the [Academic Integrity and Intellectual Property Questionnaire](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) by Oct 15.  <br>
+- **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov.5th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
 
 
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
+    - **[2025-10-15]** Template for the project report 1 posted. The due date is October 22nd. <br>
+    - **[2025-10-12]** Please complete the [Academic Integrity and Intellectual Property Questionnaire](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) by Oct 15.  <br>
     - **[2025-10-11]** All future lecture are moved to C-1-116 (BDI Building). <br>
     - **[2025-10-10]** There will be a make-up lecture on Oct. 11th (Saturday). <br>
     - **[2025-09-26]** Project 1a posted. The due date is Oct. 9th. <br>
@@ -41,8 +42,8 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 05 (Oct 06)| Monte Carlo Methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L5-Monte%20Carlo%20methods.pdf) | Policy Iterations for FrozenLake|
 | 06 (Oct 13)| Stochastic Approximations [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L6-Stochastic%20approximation.pdf) | Stochastic Approximation [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab06_StochasticApproximation_Sol.ipynb) |
 | 07 (Oct 20)| TD methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L7-Temporal-Difference%20Learning.pdf)  | Frozen Lake Encore [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab07_frozenLake_revisited.ipynb)  [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab07_frozenLake_revisited_sol.ipynb)       |
-| 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole.ipynb) |
-| 09 (Nov 3) | Value-based methods I | Value Estimation with PyTorch |
+| 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole_sol.ipynb)|
+| 09 (Nov 3) | Value-based methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L8-Value%20function%20methods.pdf.pdf)| Value Estimation with PyTorch |
 | 10 (Nov 10)| Value-based methods II | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods I |  Vanilla Policy Gradient |
 | 12 (Nov 24)| Policy-based methods II | Optimization with REINFORCE |

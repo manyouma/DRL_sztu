@@ -3,7 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov.5th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
+- **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov. 5th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
 
 
 

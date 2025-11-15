@@ -144,7 +144,7 @@ while True:
     if len(rb) < REPLAY_START_SIZE:
         continue
 
-    if frame_idx % SYNC_TARGET_FRAMES == 0:
+    if frame_idx-5 % SYNC_TARGET_FRAMES == 0:
         q_target.load_state_dict(q.state_dict())
         print("Q Network updated")
         print(opt_act[:10])

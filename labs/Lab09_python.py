@@ -127,9 +127,7 @@ while True:
     )
     rb.add(transition)
     total_rewards.append(r)
-
-    if frame_idx > REPLAY_START_SIZE+100:
-        writer.add_scalar("Loss/frame_idx", loss.item(), frame_idx)
+   
 
     if d.item():
         td = env.reset()
@@ -141,36 +139,37 @@ while True:
         writer.add_scalar("Epsilon", epsilon, episode)
         total_rewards=[]
 
-    if len(rb) < REPLAY_START_SIZE:
-        continue
-
-    if frame_idx-5 % SYNC_TARGET_FRAMES == 0:
-        q_target.load_state_dict(q.state_dict())
-        print("Q Network updated")
-        print(opt_act[:10])
-
-
-    batch = rb.sample(BATCH_SIZE)
-    obs_b      = batch["obs"].to(device)
-    act_b      = batch["action"].long().to(device)   
-    rew_b      = batch["reward"].to(device).squeeze(-1)  
-    next_obs_b = batch["next_obs"].to(device)
-    done_b     = batch["done"].to(device).float().squeeze(-1)
-    
-    with torch.no_grad():
-        opt_act =  q(next_obs_b).argmax(1)
-        q_next = q_target(next_obs_b).gather(1, opt_act.unsqueeze(-1)).squeeze(1)
-        target = rew_b + gamma * (1.0 - done_b) * q_next
+ 
+    if len(rb) >= REPLAY_START_SIZE:
+        #print("Starting training...")
         
-    act_b_ind = act_b.argmax(dim=-1)
-    q_values = q(obs_b).gather(1, act_b_ind.unsqueeze(-1)).squeeze(1)
-    
-    loss = F.mse_loss(q_values, target) 
-    
-    optimizer.zero_grad()
-    loss.backward()
-    optimizer.step()
-    
+        batch = rb.sample(BATCH_SIZE)
+        obs_b      = batch["obs"].to(device)
+        act_b      = batch["action"].long().to(device)   
+        rew_b      = batch["reward"].to(device).squeeze(-1)  
+        next_obs_b = batch["next_obs"].to(device)
+        done_b     = batch["done"].to(device).float().squeeze(-1)
+        
+        with torch.no_grad():
+            opt_act =  q(next_obs_b).argmax(1)
+            q_next = q_target(next_obs_b).gather(1, opt_act.unsqueeze(-1)).squeeze(1)
+            target = rew_b + gamma * (1.0 - done_b) * q_next
+            
+        act_b_ind = act_b.argmax(dim=-1)
+        q_values = q(obs_b).gather(1, act_b_ind.unsqueeze(-1)).squeeze(1)
+        
+        loss = F.mse_loss(q_values, target) 
+        writer.add_scalar("Loss/frame_idx", loss.item(), frame_idx)
+        
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        
+        if frame_idx % SYNC_TARGET_FRAMES == 0:
+            q_target.load_state_dict(q.state_dict())
+            print("Q Network updated")
+            print(opt_act[:10])
+        
     
     
     

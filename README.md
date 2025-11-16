@@ -3,10 +3,11 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov. 12th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
+- **[2025-11-16]**  The due date of Part 2b: DQN Solution of "Simplified Simulator" of the project is extended to Nov. 26th.  <br>
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
+    - **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov. 12th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
     - **[2025-10-15]** Template for the project report 1 posted. The due date is October 22nd. <br>
     - **[2025-10-12]** Please complete the [Academic Integrity and Intellectual Property Questionnaire](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/IW_IP.pdf) by Oct 15.  <br>
     - **[2025-10-11]** All future lecture are moved to C-1-116 (BDI Building). <br>

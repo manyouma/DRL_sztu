@@ -18,7 +18,7 @@ from torchrl.envs.transforms import ObservationNorm
 writer = SummaryWriter(log_dir=f"runs/pong_dqn_{time.strftime('%Y%m%d-%H%M%S')}")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 gamma = 0.99
-BATCH_SIZE = 32
+BATCH_SIZE = 256
 REPLAY_SIZE = 10_000
 LEARNING_RATE = 1e-5
 SYNC_TARGET_FRAMES = 1000

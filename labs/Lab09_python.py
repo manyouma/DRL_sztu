@@ -32,18 +32,38 @@ base_env = GymEnv("ALE/Pong-v5", from_pixels=True, pixels_only=True, render_mode
 n_actions = base_env.action_space.n
 input_shape = base_env.observation_space.shape
 obs_shape = (4, 84, 84)
+from torchrl.envs import TransformedEnv, Compose
+from torchrl.envs.transforms import (
+    ToTensorImage,
+    GrayScale,
+    Resize,
+    CenterCrop,
+    CatFrames,
+    RewardClipping,
+    FrameSkipTransform,
+    TimeMaxPool,
+)
+
 env = TransformedEnv(
     base_env,
     Compose(
-        ToTensorImage(),
-        GrayScale(),
-        Resize(84, 84),
-        CatFrames(N=4, dim=-3),
-        DoubleToFloat(),
+        # 对应 MaxAndSkipEnv: 跳 4 帧 + 最近 2 帧 max
+        FrameSkipTransform(frame_skip=4),
+        TimeMaxPool(in_keys=["pixels"], T=2),
+
+        # 对应 ProcessFrame84 + ImageToPyTorch + ScaledFloatFrame
+        ToTensorImage(from_int=True, in_keys=["pixels"]),  # uint8 → float32 [0,1]
+        GrayScale(in_keys=["pixels"]),
+        Resize(84, 110, in_keys=["pixels"]),
+        CenterCrop(84, 84, in_keys=["pixels"]),
+
+        # 对应 BufferWrapper(n_steps=4)：叠 4 帧
+        CatFrames(N=4, dim=-3, in_keys=["pixels"]),
+
+        # 奖励裁剪
         RewardClipping(-1, 1),
     ),
 )
-
 
 rb = TensorDictReplayBuffer(
     storage=LazyMemmapStorage(max_size=REPLAY_SIZE),  

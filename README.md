@@ -44,9 +44,9 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 08 (Oct 27)| TD methods II | Q-learning  on Cart-Pole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab08_cartpole_sol.ipynb)|
 | 09 (Nov 3) | Value-based methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L8-Value%20function%20methods.pdf.pdf)| 	DQN on Atari [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab9_atari_DQN.ipynb) |
 | 10 (Nov 10)| Value-based methods II | DQN on Atari |
-| 11 (Nov 17)| Policy-based methods I |  Vanilla Policy Gradient |
-| 12 (Nov 24)| Policy-based methods II | Optimization with REINFORCE |
-| 13 (Dec 01)| Actor-Critic Methods | A2C and DDPG  |
+| 11 (Nov 17)| Policy-based methods |  REINFORCE on CartPole |
+| 12 (Nov 24)| Actor-Critic Methods I | A2C on Atari |
+| 13 (Dec 01)| Actor-Critic Methods II | SAC and DDPG  |
 | 14 (Dec 08)| Trust Region Methods I | TRPO |
 | 15 (Dec 15)| Trust Region Methods II | PPO |
 | 16 (Dec 22)| LLM and RLHF  | LLM fine-tuning |

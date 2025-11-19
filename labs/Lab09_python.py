@@ -154,8 +154,7 @@ while True:
 
  
     if len(rb) >= REPLAY_START_SIZE:
-        print("Starting training...")
-        
+
         batch = rb.sample(BATCH_SIZE)
         obs_b      = batch["obs"].to(device)
         act_b      = batch["action"].long().to(device)   

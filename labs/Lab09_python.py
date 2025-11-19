@@ -18,12 +18,12 @@ from torchrl.envs.transforms import ObservationNorm
 writer = SummaryWriter(log_dir=f"runs/pong_dqn_{time.strftime('%Y%m%d-%H%M%S')}")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 gamma = 0.99
-BATCH_SIZE = 256
+BATCH_SIZE = 64
 REPLAY_SIZE = 10_000
-LEARNING_RATE = 1e-5
+LEARNING_RATE = 1e-4
 SYNC_TARGET_FRAMES = 1000
 REPLAY_START_SIZE = 10_000
-EPSILON_DECAY_LAST_FRAME = 200_000
+EPSILON_DECAY_LAST_FRAME = 150_000
 EPSILON_START = 1.0
 EPSILON_FINAL = 0.01
 
@@ -47,20 +47,13 @@ from torchrl.envs.transforms import (
 env = TransformedEnv(
     base_env,
     Compose(
-        # 对应 MaxAndSkipEnv: 跳 4 帧 + 最近 2 帧 max
         FrameSkipTransform(frame_skip=4),
         TimeMaxPool(in_keys=["pixels"], T=2),
-
-        # 对应 ProcessFrame84 + ImageToPyTorch + ScaledFloatFrame
-        ToTensorImage(from_int=True, in_keys=["pixels"]),  # uint8 → float32 [0,1]
+        ToTensorImage(from_int=True, in_keys=["pixels"]), 
         GrayScale(in_keys=["pixels"]),
         Resize(84, 110, in_keys=["pixels"]),
         CenterCrop(84, 84, in_keys=["pixels"]),
-
-        # 对应 BufferWrapper(n_steps=4)：叠 4 帧
         CatFrames(N=4, dim=-3, in_keys=["pixels"]),
-
-        # 奖励裁剪
         RewardClipping(-1, 1),
     ),
 )

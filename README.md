@@ -46,7 +46,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 09 (Nov 3) | Value-based methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L8-Value%20function%20methods.pdf.pdf)| 	DQN on Atari [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab09_atari_DQN.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab09_python.py)  |
 | 10 (Nov 10)| Value-based methods II [slides](https://github.com/manyouma/DRL_sztu/blob/main/slides/L8b_Advanced_DQN.pdf) | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L9-Policy%20gradient%20methods.pdf) |  REINFORCE on CartPole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole_sol.ipynb)|
-| 12 (Nov 24)| Actor-Critic Methods I | A2C on Atari |
+| 12 (Nov 24)| Actor-Critic Methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L10-Actor%20Critic.pdf) | A2C on Atari |
 | 13 (Dec 01)| Actor-Critic Methods II | SAC and DDPG  |
 | 14 (Dec 08)| Trust Region Methods I | TRPO |
 | 15 (Dec 15)| Trust Region Methods II | PPO |

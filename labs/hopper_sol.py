@@ -2,7 +2,7 @@ import gymnasium as gym
 import torch
 import numpy as np
 import time
-from hopper import Actor   # 如果报错，我可以给你拆版本
+from hopper import Actor  
 
 env = gym.make("Hopper-v4", render_mode="human")
 

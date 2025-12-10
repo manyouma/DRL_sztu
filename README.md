@@ -63,10 +63,10 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | &nbsp;&nbsp;1c: Report 1       | Template [pdf](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/report1.pdf) [latex](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/template.zip) | Oct. 22  | 12 |
 | **2. Simplified Simulator**    | |  |  **10** |
 | &nbsp;&nbsp;2a: Simplified Simulator | | Nov. 12   | 7 |
-| &nbsp;&nbsp;2b: DQN Solution   | | Nov. 26  | 3 |
+| &nbsp;&nbsp;2b: DRL Solution 1  | | Nov. 26  | 3 |
 | **3. Complete Simulalor**      | |  | **10** |
-| &nbsp;&nbsp;3a: DRL Solution 1 | | TBD   | 7 |
-| &nbsp;&nbsp;3b: DRL Solution 2 | | TBD  | 3 |
+| &nbsp;&nbsp;3a: DRL Solution 2 | | Dec. 24   | 7 |
+| &nbsp;&nbsp;3b: DRL Solution 3 | | Dec. 24   | 3 |
 | **4. Final Solution & Report** | |  | **25** |
-| &nbsp;&nbsp;4a: Final Solution | | TBD  | 5  |
+| &nbsp;&nbsp;4a: Final Solution | | Jan.  | 5 |
 | &nbsp;&nbsp;4b: Final Report   | | TBD  | 20 |

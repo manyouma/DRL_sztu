@@ -47,9 +47,9 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 10 (Nov 10)| Value-based methods II [slides](https://github.com/manyouma/DRL_sztu/blob/main/slides/L8b_Advanced_DQN.pdf) | DQN on Atari |
 | 11 (Nov 17)| Policy-based methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L9-Policy%20gradient%20methods.pdf) |  REINFORCE on CartPole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole_sol.ipynb)|
 | 12 (Nov 24)| Actor-Critic Methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L10-Actor%20Critic.pdf) | No Class |
-| 13 (Dec 01)|  No Class | [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP.ipynb)  |
-| 14 (Dec 08)| Trust Region Methods I | TRPO |
-| 15 (Dec 15)| Trust Region Methods II | PPO |
+| 13 (Dec 01)|  No Class | A2C on Cartpole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP_sol.ipynb) |
+| 14 (Dec 08)| DDPG and SAC | DDPG and Mojoco |
+| 15 (Dec 15)| Trust Region Methods | PPO |
 | 16 (Dec 22)| LLM and RLHF  | LLM fine-tuning |
 | 17 (Dec 29)| Project Presentation  | Project Workshop |
 | 18 (Jan 05)| Project Presentation  | Project Workshop |

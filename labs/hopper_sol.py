@@ -16,15 +16,13 @@ actor.eval()
 
 state, _ = env.reset()
 
-state_tensor = torch.FloatTensor(state).unsqueeze(0)
-action = actor(state_tensor).detach().numpy().flatten()
-state, _, terminated, truncated, _ = env.step(action)
-time.sleep(0.01)
-
-
-while not (terminated or truncated):
+while True:
     state_tensor = torch.FloatTensor(state).unsqueeze(0)
     action = actor(state_tensor).detach().numpy().flatten()
     state, _, terminated, truncated, _ = env.step(action)
     time.sleep(0.01)
+    
+    if (terminated or truncated):
+        state, _ = env.reset()
 
+    

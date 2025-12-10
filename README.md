@@ -50,7 +50,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 13 (Dec 01)|  No Class | A2C on Cartpole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP_sol.ipynb) |
 | 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb) SAC [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco.ipynb) |
 | 15 (Dec 15)| Trust Region Methods | TRPO and PPO |
-| 16 (Dec 22)| Transformer-based DRL  | DRL for Stationary Problems |
+| 16 (Dec 22)| Multi-agent DRL  | MADDPG and Q-Mix |
 | 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
 | 18 (Jan 05)| Project Presentation  | Project Workshop |
 

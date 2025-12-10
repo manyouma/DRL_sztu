@@ -52,7 +52,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 15 (Dec 15)| Trust Region Methods | TRPO and PPO |
 | 16 (Dec 22)| Multi-agent DRL  | MADDPG and Q-Mix |
 | 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
-| 18 (Jan 05)| Project Presentation  | Project Workshop |
+| 18 (Jan 05)| Project Presentation  | Project Presentation |
 
 ### Project Information
 | Project Assignment | Instructions | Due Date | Weight |

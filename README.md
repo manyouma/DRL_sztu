@@ -48,10 +48,10 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 11 (Nov 17)| Policy-based methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L9-Policy%20gradient%20methods.pdf) |  REINFORCE on CartPole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole_sol.ipynb)|
 | 12 (Nov 24)| Actor-Critic Methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L10-Actor%20Critic.pdf) | No Class |
 | 13 (Dec 01)|  No Class | A2C on Cartpole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP_sol.ipynb) |
-| 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb)  |
-| 15 (Dec 15)| Trust Region Methods | PPO |
-| 16 (Dec 22)| LLM and RLHF  | LLM fine-tuning |
-| 17 (Dec 29)| Project Presentation  | Project Workshop |
+| 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb) SAC [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco.ipynb) |
+| 15 (Dec 15)| Trust Region Methods | TRPO and PPO |
+| 16 (Dec 22)| Transformer-based DRL  | DRL for Stationary Problems |
+| 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
 | 18 (Jan 05)| Project Presentation  | Project Workshop |
 
 ### Project Information

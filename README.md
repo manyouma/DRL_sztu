@@ -3,7 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-12-17]**  The template for Assignment~3 has been posted, and the due date is \textbf{December 31}.  <br>
+- **[2025-12-17]**  The template for Assignment 3 has been posted, and the due date is December 31.  <br>
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
     - **[2025-11-29]**  The lectures scheduled for Dec. 3 and Dec. 4 next week are cancelled due to the school sports meeting.  <br>

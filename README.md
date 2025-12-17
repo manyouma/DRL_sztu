@@ -3,6 +3,7 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
+- **[2025-12-17]**  Schedule for the final project presentation posted. Please prepare a 20-minute presentation.   <br>
 - **[2025-12-17]**  The template for Assignment 3 has been posted, and the due date is December 31.  <br>
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
@@ -53,7 +54,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 15 (Dec 15)| TRPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-02_TRPO.pdf) and PPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-03_PPO.pdf) | TRPO and PPO |
 | 16 (Dec 22)| Transformer and Attention Mechanism  | Neural Combinatorial Optimization |
 | 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
-| 18 (Jan 05)| Project Presentation <br> Ben，Elina， Roman，Viktoriya  | Project Presentation <br> Rui, Yanyi, Yueming, Zhenwei|
+| 18 (Jan 05)| Project Presentation <br> Ben, Elina, Roman, Viktoriya  | Project Presentation <br> Rui, Yanyi, Yueming, Zhenwei|
 
 ### Project Information
 | Project Assignment | Instructions | Due Date | Weight |

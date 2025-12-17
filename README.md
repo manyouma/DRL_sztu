@@ -3,10 +3,11 @@
 Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Technology University!  
 
 ### Course News & Announcements
-- **[2025-11-29]**  The lectures scheduled for Dec. 3 and Dec. 4 next week are cancelled due to the school sports meeting.  <br>
-- **[2025-11-26]**  The lecture originally scheduled on Nov 27 is moved to Dec 2 (Tuesday), 2:00–3:30pm in C1-116.  <br>
+- **[2025-12-17]**  The template for Assignment~3 has been posted, and the due date is \textbf{December 31}.  <br>
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Archived News</summary>
+    - **[2025-11-29]**  The lectures scheduled for Dec. 3 and Dec. 4 next week are cancelled due to the school sports meeting.  <br>
+    - **[2025-11-26]**  The lecture originally scheduled on Nov 27 is moved to Dec 2 (Tuesday), 2:00–3:30pm in C1-116.  <br>        
     - **[2025-11-16]**  The due date of Part 2b: DQN Solution of "Simplified Simulator" of the project is extended to Nov. 26th.  <br>
     - **[2025-11-04]**  Part 2a: "Simplified Simulator" of the project is due on Nov. 12th. Please create a GitHub repository containing an OpenAI Gym–style environment and trajectories generated with at least two baseline algorithms, and share the link with me via email. <br>
     - **[2025-10-15]** Template for the project report 1 posted. The due date is October 22nd. <br>
@@ -48,9 +49,9 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 11 (Nov 17)| Policy-based methods [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L9-Policy%20gradient%20methods.pdf) |  REINFORCE on CartPole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab10_REINFORCEcartpole_sol.ipynb)|
 | 12 (Nov 24)| Actor-Critic Methods I [slides](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L10-Actor%20Critic.pdf) | No Class |
 | 13 (Dec 01)|  No Class | A2C on Cartpole [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab11_A2ConCP_sol.ipynb) |
-| 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb) SAC [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco.ipynb) |
-| 15 (Dec 15)| Trust Region Methods | TRPO and PPO |
-| 16 (Dec 22)| Multi-agent DRL  | MADDPG and Q-Mix |
+| 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) [sol](http://githucdrb.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco_sol.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco_sol.ipynb) SAC [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco_sol.ipynb)|
+| 15 (Dec 15)| TRPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-02_TRPO.pdf) and PPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-03_PPO.pdf) | TRPO and PPO |
+| 16 (Dec 22)| Transformer and Attention Mechanism  | Neural Combinatorial Optimization |
 | 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
 | 18 (Jan 05)| Project Presentation  | Project Presentation |
 
@@ -65,8 +66,8 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | &nbsp;&nbsp;2a: Simplified Simulator | | Nov. 12   | 7 |
 | &nbsp;&nbsp;2b: DRL Solution 1  | | Nov. 26  | 3 |
 | **3. Complete Simulalor**      | |  | **10** |
-| &nbsp;&nbsp;3a: DRL Solution 2 | | Dec. 24   | 7 |
-| &nbsp;&nbsp;3b: DRL Solution 3 | | Dec. 24   | 3 |
+| &nbsp;&nbsp;3a: DRL Solution 2 | [pdf](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/Report3_format.pdf) [latex](https://github.com/manyouma/DRL_sztu/blob/main/project_guide/project3.zip) | Dec. 31    | 7 |
+| &nbsp;&nbsp;3b: DRL Solution 3 | | Dec. 31   | 3 |
 | **4. Final Solution & Report** | |  | **25** |
 | &nbsp;&nbsp;4a: Final Solution | | Jan. 5 | 5 |
 | &nbsp;&nbsp;4b: Final Report   | | TBD  | 20 |

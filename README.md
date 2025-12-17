@@ -53,7 +53,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 15 (Dec 15)| TRPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-02_TRPO.pdf) and PPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-03_PPO.pdf) | TRPO and PPO |
 | 16 (Dec 22)| Transformer and Attention Mechanism  | Neural Combinatorial Optimization |
 | 17 (Dec 29)| LLM and RLHF  | LLM fine-tuning |
-| 18 (Jan 05)| Project Presentation  | Project Presentation |
+| 18 (Jan 05)| Project Presentation - Ben，Elina， Roman，Viktoriya  | Project Presentation - Rui, Yanyi, Yueming, Zhenwei|
 
 ### Project Information
 | Project Assignment | Instructions | Due Date | Weight |

@@ -53,7 +53,7 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | 14 (Dec 08)| DDPG, TD3, and SAC | Mujoco with DDPG [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco.ipynb) [sol](http://githucdrb.com/manyouma/DRL_sztu/blob/main/labs/Lab12_DDPGmojoco_sol.ipynb) TD3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab13_TD3mujoco_sol.ipynb) SAC [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco.ipynb) [sol](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab14_SACmujoco_sol.ipynb)|
 | 15 (Dec 15)| TRPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-02_TRPO.pdf) and PPO [slides](https://download.cmutschler.de/lectures/FAU_RL_2021/slides/7-03_PPO.pdf) | PPO and stablebaseline3 [lab](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab15_StableBaseline.ipynb) |
 | 16 (Dec 22)| Transformer and Attention Mechanism [slides] | Transformer [labs](https://github.com/manyouma/DRL_sztu/blob/main/labs/Lab16_transformer.ipynb) |
-| 17 (Dec 29)| LLM and RLHF   | LLM fine-tuning |
+| 17 (Dec 29)| LLM and RLHF   | No class |
 | 18 (Jan 05)| Project Presentation <br> Ben, Elina, Roman, Viktoriya  | Project Presentation <br> Rui, Yanyi, Yueming, Zhenwei|
 
 ### Project Information

@@ -71,4 +71,4 @@ Welcome to **IB00398 Introduction to Reinforcement Learning** at Shenzhen Techno
 | &nbsp;&nbsp;3b: DRL Solution 3 | | Dec. 31   | 3 |
 | **4. Final Solution & Report** | |  | **25** |
 | &nbsp;&nbsp;4a: Final Solution | | Jan. 5 | 5 |
-| &nbsp;&nbsp;4b: Final Report   | | TBD  | 20 |
+| &nbsp;&nbsp;4b: Final Report   | | Jan. 21  | 20 |
